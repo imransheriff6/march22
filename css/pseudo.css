@@ -1,0 +1,45 @@
+p:not(.str){
+    color: blueviolet;
+}
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    font-size: 30px;
+}
+h2::before,h2::after{
+    content: "*";
+    color: red;
+}
+ul li::marker{
+    color: red;
+    font-size: 20px;
+}
+button{
+    padding: 5px;
+    background-color: burlywood;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+button:active{
+    background-color: #999;
+}
+button:hover{
+    box-shadow: 0px 0px 5px #999;
+}
+input:focus-visible{
+    border: none;
+    outline: none;
+}
+input:focus{
+    /* outline: 1px solid green; */
+    border: 2px solid green;
+    border-radius: 5px;
+}
+ul li:nth-child(even){
+    color: blue;
+}
+ul li:nth-child(odd){
+    color: red;
+}

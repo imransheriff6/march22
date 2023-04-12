@@ -1,0 +1,47 @@
+#parent{
+    display: grid;
+    /* grid-template-columns: repeat(4,24%); */
+}
+#parent div:nth-child(odd){
+    background-color: blanchedalmond;
+}
+#parent div:nth-child(even){
+   background-color: darkmagenta;
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px)  {
+    #para{
+        color: red;
+    }
+    #parent{
+        grid-template-columns: 100%;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 480px) and (max-width: 768px)  {
+    #para{
+        color: yellow;
+    }
+    #parent{
+        grid-template-columns: 50% 50%;
+    }
+}
+/* laptop */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #para{ 
+        color: blue;
+    }
+    #parent{
+        grid-template-columns: repeat(3,33%);
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    #para{
+        color: green;
+    }
+    #parent{
+        grid-template-columns: repeat(4,24%);
+    }
+}

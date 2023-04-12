@@ -1,0 +1,53 @@
+#img_car{
+    width: 200px;
+    height: 200px;
+}
+.box{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #999;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    /* padding-left: 50px; */
+    background-color: white;
+    position: relative;
+}
+.box h2{
+    margin-top: 0;
+    margin-bottom: 2px
+}
+body{
+    margin: 0;
+    background-color: bisque;
+}
+#header{
+    background-color: aquamarine;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50px;
+    /* width: 100%; */
+}
+#sticky{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.icon{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+[id="some"]{
+    color: red;
+}
+
+#header1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
